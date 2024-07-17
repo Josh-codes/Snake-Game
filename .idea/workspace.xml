@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e63b6afa-fc73-4778-bbeb-a3b3efc69b54" name="Changes" comment="Created the screen setup, starting body of the snake and movement of the snake(forward)">
+    <list default="true" id="e63b6afa-fc73-4778-bbeb-a3b3efc69b54" name="Changes" comment="updated the movements now can use keys">
+      <change afterPath="$PROJECT_DIR$/food.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scoreboard.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/snake.py" afterDir="false" />
@@ -15,8 +17,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Josh-codes&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Josh-codes/python&quot;,
+    &quot;accountId&quot;: &quot;528e6431-d446-4253-9d2f-70314b34621b&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -28,10 +48,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.food.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.scoreboard.executor": "Run",
     "Python.snake.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -58,7 +81,39 @@
       <option name="project" value="LOCAL" />
       <updated>1720884115680</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="updated the movements now can use keys">
+      <option name="closed" value="true" />
+      <created>1721224540885</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1721224540885</updated>
+    </task>
+    <task id="LOCAL-00003" summary="updated the movements now can use keys">
+      <option name="closed" value="true" />
+      <created>1721224556776</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721224556776</updated>
+    </task>
+    <task id="LOCAL-00004" summary="updated the movements now can use keys">
+      <option name="closed" value="true" />
+      <created>1721224619550</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721224619550</updated>
+    </task>
+    <task id="LOCAL-00005" summary="updated the movements now can use keys">
+      <option name="closed" value="true" />
+      <created>1721225089550</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721225089550</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,6 +157,17 @@
                   <entry key="Show.Git.Branches" value="true" />
                 </map>
               </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
               <option name="HIGHLIGHTERS">
                 <map>
                   <entry key="MY_COMMITS" value="true" />
@@ -115,6 +181,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created the screen setup, starting body of the snake and movement of the snake(forward)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created the screen setup, starting body of the snake and movement of the snake(forward)" />
+    <MESSAGE value="updated the movements now can use keys" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated the movements now can use keys" />
   </component>
 </project>
